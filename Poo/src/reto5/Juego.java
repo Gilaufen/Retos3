@@ -1,7 +1,7 @@
 package reto5;
 
-import java.lang.reflect.Method;
-
-public abstract class Juego {
-    public  iniciar();
+public interface Juego {
+    void iniciar();
+    void jugar();
+    void finalizar();
 }
